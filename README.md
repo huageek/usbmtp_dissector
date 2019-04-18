@@ -9,6 +9,6 @@ CMakeLists.txt<br />
 3. add the following dir to wireshark\CMakeLists.txt<br />
 plugins/epan/usbmtp<br />
 
-#usbmtp_dissector binary<br />
+# usbmtp_dissector binary
 Copy usbmtp.dll to wireshark\plugins\epan and reopen wireshark, then wireshark will support usbmtp.<br />
 The wireshark version need be higher than or equal to 3.0.0.
