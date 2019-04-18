@@ -1,10 +1,10 @@
 # usbmtp_dissector srouce
 1. create new dir: wireshark\plugins\epan\usbmtp
 
-2. copy the following files to wireshark\plugins\epan\usbmtp
-packet-usb-mtp.c
-packet-usb-mtp.h
-CMakeLists.txt
+2. copy the following files to wireshark\plugins\epan\usbmtp<br />
+packet-usb-mtp.c<br />
+packet-usb-mtp.h<br />
+CMakeLists.txt<br />
 
 3.
 add the following dir to wireshark\CMakeLists.txt
